@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class EndToEndTest extends BaseTest {
   @Test
-  public void testFlipkartEndToEndFlow() {
+  public void testEndToEndFlow() {
     // Login
     LoginPage loginPage = new LoginPage(driver);
     HomePage homePage = loginPage.login("your_username", "your_password");
